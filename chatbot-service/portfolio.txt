@@ -1,0 +1,169 @@
+Name: Suyash Pant
+
+Title:
+Final Year Civil Engineering Undergraduate | Aspiring Product Manager
+
+Introduction:
+Passionate about building AI-powered products, data-driven systems, scalable web applications, and intelligent solutions using machine learning and modern full-stack technologies.
+
+Contact Information:
+Email: suyashp22@iitk.ac.in
+GitHub: https://github.com/SuyashPant04
+LinkedIn: https://linkedin.com/in/suyashpant
+
+
+Skills:
+
+Frontend:
+- React
+- JavaScript
+- TailwindCSS
+- Vite
+- Next.js
+
+Backend:
+- Flask
+- Python
+- Node.js
+- Express.js
+- REST APIs
+
+Tools:
+- Git
+- GitHub
+- MongoDB
+- PostgreSQL
+- Docker
+- Linux
+- VS Code
+- Jupyter Notebook
+
+AI / Data Science:
+- Machine Learning
+- Demand Forecasting
+- SARIMA
+- Data Analysis
+- TensorFlow
+- NLP
+- scikit-learn
+- Pandas
+
+
+Experience:
+
+VidyalayaOne
+Role: Maintainer / Co-Founder
+Duration: Jun 2025 - Present
+
+Description:
+- Contributed to backend development using Node.js and Express.
+- Built frontend modules using React for a School ERP Platform.
+- Developed student management, fee collection, attendance tracking, and analytics systems.
+- Implemented secure authentication and role-based access systems.
+- Designed responsive UI/UX for administrators, teachers, parents, and students.
+
+
+Projects:
+
+1. AI Portfolio Chatbot
+
+Description:
+Full-stack AI-powered portfolio website with React frontend, Flask backend, and integrated chatbot support.
+
+Technologies Used:
+- React
+- Flask
+- TailwindCSS
+- Axios
+
+
+2. URL Shortener
+
+Description:
+A scalable URL shortening service with analytics and redirection support built using Node.js and MongoDB.
+
+Technologies Used:
+- Node.js
+- Express.js
+- MongoDB
+
+
+3. Demand Forecasting System
+
+Description:
+Developed SARIMA-based forecasting models and decomposition techniques to analyze sales trends and business performance.
+
+Technologies Used:
+- Python
+- Pandas
+- Statsmodels
+- SARIMA
+
+
+4. RNN Chatbot
+
+Description:
+Built an RNN-based question answering chatbot using TensorFlow with embeddings, attention matching, and NLP preprocessing techniques.
+
+Technologies Used:
+- Python
+- TensorFlow
+- NLP
+
+
+5. ML-Driven PUF Analysis
+
+Description:
+Developed machine learning models for nonlinear ML-PUF response prediction achieving 99 percent test accuracy.
+
+Technologies Used:
+- Python
+- scikit-learn
+- LinearSVC
+
+
+6. Spam Classifier
+
+Description:
+Built an NLP-based spam classification system using TF-IDF feature engineering and Linear SVM models achieving 98 percent accuracy.
+
+Technologies Used:
+- Python
+- NLP
+- scikit-learn
+
+
+7. Sales Performance & Market Insights Analysis
+
+Description:
+Analyzed USA sales data to identify revenue trends, profitability patterns, seasonal behavior, pricing outliers, and regional market insights.
+
+Technologies Used:
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Plotly
+
+
+Positions of Responsibility:
+
+1. Coordinator | Card & Board Games Club, IIT Kanpur
+
+- Led a 15+ member team.
+- Managed events and competitions for a community of 9000+ students.
+- Handled budgeting and club operations.
+- Organized tournaments and themed game nights.
+
+
+2. Secretary | Battle Underground, Antaragni IIT Kanpur
+
+- Coordinated event participation across multiple cities.
+- Managed outreach, sponsorship communication, and event operations.
+
+
+Achievements:
+
+- AIR 5360 in JEE Advanced 2022 among 150000+ candidates
+- Zonal Rank 481 in SOF International Maths Olympiad
+- 1st position in Football at Inferno ’23

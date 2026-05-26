@@ -1,41 +1,57 @@
-function Projects() {
-  return (
-    <section className="min-h-screen px-6 py-20">
-      <div className="max-w-6xl mx-auto">
+import { portfolioData } from "../data/portfolioData";
 
-        <h1 className="text-5xl font-bold mb-12 text-center">
+const Projects = () => {
+  const projects = portfolioData.projects;
+
+  return (
+    <section className="min-h-screen bg-gray-900 py-20 px-6">
+
+      <div className="max-w-7xl mx-auto">
+
+        <h1 className="text-5xl font-bold text-center mb-16">
           Projects
         </h1>
 
         <div className="grid md:grid-cols-2 gap-8">
 
-          <div className="bg-gray-800 p-6 rounded-xl">
-            <h2 className="text-2xl font-bold mb-4">
-              URL Shortener
-            </h2>
+          {projects.map((project, index) => (
 
-            <p className="text-gray-400">
-              Full stack URL shortener application built using
-              Node.js, Express, and MongoDB.
-            </p>
-          </div>
+            <div
+              key={index}
+              className="bg-gray-800 p-6 rounded-2xl hover:scale-105 transition duration-300"
+            >
 
-          <div className="bg-gray-800 p-6 rounded-xl">
-            <h2 className="text-2xl font-bold mb-4">
-              Demand Forecasting
-            </h2>
+              <h2 className="text-2xl font-bold mb-4">
+                {project.title}
+              </h2>
 
-            <p className="text-gray-400">
-              Forecasting project using SARIMA models and
-              business performance analysis.
-            </p>
-          </div>
+              <p className="text-gray-400 mb-5 leading-relaxed">
+                {project.description}
+              </p>
+
+              <div className="flex flex-wrap gap-3">
+
+                {project.technologies.map((tech, idx) => (
+                  <span
+                    key={idx}
+                    className="bg-blue-500 px-4 py-2 rounded-full text-sm"
+                  >
+                    {tech}
+                  </span>
+                ))}
+
+              </div>
+
+            </div>
+
+          ))}
 
         </div>
 
       </div>
-    </section>
-  )
-}
 
-export default Projects
+    </section>
+  );
+};
+
+export default Projects;    

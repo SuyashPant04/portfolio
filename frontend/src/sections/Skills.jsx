@@ -1,39 +1,53 @@
-function Skills() {
-  const skills = [
-    "React",
-    "JavaScript",
-    "Python",
-    "Flask",
-    "Node.js",
-    "MongoDB",
-    "TailwindCSS",
-    "Git",
-    "Machine Learning",
-    "Data Analysis"
-  ]
+import { portfolioData } from "../data/portfolioData";
+
+const Skills = () => {
+  const skills = portfolioData.skills;
 
   return (
-    <section className="min-h-screen px-6 py-20">
-      <div className="max-w-5xl mx-auto">
+    <section className="min-h-screen bg-gray-900 py-20 px-6">
 
-        <h1 className="text-5xl font-bold mb-12 text-center">
+      <div className="max-w-7xl mx-auto">
+
+        <h1 className="text-5xl font-bold text-center mb-16">
           Skills
         </h1>
 
-        <div className="flex flex-wrap gap-4 justify-center">
-          {skills.map((skill, index) => (
+        <div className="grid md:grid-cols-2 gap-8">
+
+          {Object.entries(skills).map(([category, skillList]) => (
+
             <div
-              key={index}
-              className="bg-blue-500 px-6 py-3 rounded-full"
+              key={category}
+              className="bg-gray-800 p-6 rounded-2xl"
             >
-              {skill}
+
+              <h2 className="text-2xl font-bold capitalize text-blue-400 mb-5">
+                {category}
+              </h2>
+
+              <div className="flex flex-wrap gap-3">
+
+                {skillList.map((skill, index) => (
+                  <span
+                    key={index}
+                    className="bg-blue-500 px-4 py-2 rounded-full"
+                  >
+                    {skill}
+                  </span>
+                ))}
+
+              </div>
+
             </div>
+
           ))}
+
         </div>
 
       </div>
-    </section>
-  )
-}
 
-export default Skills
+    </section>
+  );
+};
+
+export default Skills;
